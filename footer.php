@@ -1,0 +1,167 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package ukk-theme
+ */
+
+?>
+
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__wrapper">
+            <div class="footer__top footer-top">
+                <div class="footer__logo logo">
+        <span class="logo__sup-title">
+          Частное образовательное учреждение
+          дополнительного профессионального образования
+        </span>
+                    <span class="logo__title">«учебно-курсовой комбинат»</span>
+                </div>
+                <a href="#" class="btn btn--yellow footer__btn">ОСТАВИТЬ ЗАЯВКУ</a>
+            </div>
+            <div class="footer__main footer-main">
+                <div class="footer-main__block">
+                    <p class="footer-main__text">ЧОУ ДПО «Учебно-курсовой комбинат»
+                        в 2020г. продолжает вести финансово-
+                        хозяйственную деятельность.
+                        <span class="footer-main__address">г. Липецк, ул. Терешковой, д. 6/2</span></p>
+                </div>
+                <div class="footer-main__block">
+                    <ul class="footer-main__list">
+                        <li class="footer-main__item">
+                            <a class="footer-main__link footer-main__link--main footer-main__link--current" href="#">О компании</a>
+                        </li>
+                        <li class="footer-main__item footer-main__item--main">
+                            <a class="footer-main__link footer-main__link--main" href="#"> Сведения об образовательной
+                                организации</a>
+
+                        </li>
+                        <li class="footer-main__item footer-main__item--main">
+                            <a class="footer-main__link footer-main__link--main" href="#">Дистанционное обучение </a>
+                        </li>
+                        <li class="footer-main__item footer-main__item--main">
+                            <a class="footer-main__link footer-main__link--main" href="#">Услуги</a>
+                        </li>
+                        <li class="footer-main__item footer-main__item--main">
+                            <a class="footer-main__link footer-main__link--main" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-main__block">
+                    <ul class="footer-main__list">
+                        <li class="footer-main__item footer-main__item--title">
+                            <a class="footer-main__link footer-main__link--title" href="#">Наши специальности</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link footer-main__link--current" href="#">Промышленная безопасность</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link" href="#">Охрана труда</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link" href="#">Профессиональное обучение</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link" href="#">Подготовка по профессиям</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link" href="#">Экологическа безопасность</a>
+                        </li>
+                        <li class="footer-main__item"><a class="footer-main__link" href="#">Курсы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-main__block">
+                    <ul class="footer-main__list">
+                        <li class="footer-main__item footer-main__item--title">
+                            <a class="footer-main__link footer-main__link--title" href="#">НАШИ УСЛУГИ</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link footer-main__link--current" href="#">Перечень услуг</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link" href="#">Прейскурант цен</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link" href="#">Образовательные онлайн
+                                ресурсы</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-main__block">
+                    <ul class="footer-main__list">
+                        <li class="footer-main__item footer-main__item--title">
+                            <a class="footer-main__link" href="#">НАШИ КОНТАКТЫ</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <span class="footer-main__title">Директор:</span>
+                            <a class="footer-main__link footer-main__link--main" href="tel:+74742348705">+7 (4742) 34-87-05</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <span class="footer-main__title">Секретарь:</span>
+                            <a class="footer-main__link footer-main__link--main" href="tel:+74742348705">+7 (4742) 34-72-42</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <span class="footer-main__title">Заместитель:</span>
+                            <a class="footer-main__link footer-main__link--main" href="tel:+74742348705">+7 (4742) 35-73-94</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <span class="footer-main__title">Отдел подготовки:</span>
+                            <a class="footer-main__link footer-main__link--main" href="tel:+74742348705">+7 (4742) 34-57-25</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <span class="footer-main__title">Бухгалтерия:</span>
+                            <a class="footer-main__link footer-main__link--main" href="tel:+74742348705">+7 (4742) 34-80-85</a>
+                        </li>
+                        <li class="footer-main__item">
+                            <a class="footer-main__link footer-main__link--main" href="mailto:ukk48@inbox.ru">ukk48@inbox.ru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom footer-bottom">
+                <span class="footer__copyright copyright">© 2020. ЧОУ ДПО «Учебно-курсовой комбинат»</span>
+                <div class="footer__webbew webbew">
+                    <span class="webbew__text">Разработка сайта</span>
+                    <a href="#" class="webbew__title">WebbeW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div style="display: none; max-width: 500px;" id="modal">
+    <div class="contact__form contact-form modal-form">
+        <form action="#" method="POST">
+            <h3 class="contact-form__title">Оставить заявку:</h3>
+            <div class="contact-form__control form-control">
+                <div class="form-control__input">
+                    <label for="name" class="contact-form__label">Ваше имя:</label>
+                    <input id="name" type="text" class="contact-form__input" placeholder="Введите Ваше имя">
+                </div>
+                <div class="form-control__input">
+                    <label for="phone" class="contact-form__label">Ваш номер телефона имя:</label>
+                    <input id="phone" type="text" class="contact-form__input form-phone">
+                </div>
+                <div class="form-control__textarea">
+                    <label for="message" class="contact-form__label">Ваше сообщение:</label>
+                    <textarea id="message" type="text" class="contact-form__textarea" placeholder="Введите Ваше сообщение"></textarea>
+                </div>
+                <div class="form-control__btn">
+                    <button type="submit" class="btn btn--yellow contact-form__btn">ОСТАВИТЬ ЗАЯВКУ</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
+</body>
+</html>

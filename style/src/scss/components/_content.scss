@@ -1,0 +1,264 @@
+.content {
+  padding: 40px 0;
+  background: rgb(45, 74, 104);
+  background: linear-gradient(180deg, rgba(45, 74, 104, 1) 0%, rgba(74, 91, 108, 1) 100%);
+
+  &__block-info {
+    display: flex;
+    align-items: flex-start;
+    //justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    width: 36%;
+    margin: 0;
+    font-weight: 900;
+    font-size: 16px;
+    color: $anzac;
+  }
+
+  &__text {
+    width: 60%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.784;
+    color: $white;
+
+    &--block {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+    }
+
+    &--title {
+      margin-bottom: 10px;
+      font-weight: 900;
+      font-size: 14px;
+      color: $anzac;
+    }
+
+    &--main {
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 14px;
+      color: $white;
+    }
+  }
+
+  & p {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.784;
+    text-indent: 1.5em;
+    color: $white;
+  }
+
+  & ul {
+    padding-left: 40px;
+    list-style: disc;
+  }
+
+  & li {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.784;
+    color: $white;
+  }
+
+  h2 {
+    color: $anzac;
+  }
+
+  h3 {
+    max-width: 100%;
+    font-weight: 900;
+    font-size: 18px;
+    color: $anzac;
+  }
+
+  & a {
+    color: $anzac;
+    transition: color .5s linear;
+
+    &:hover {
+      color: $silver;
+    }
+  }
+}
+
+.content {
+  .file {
+    &__item {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+
+    &__title {
+      padding-left: 15px;
+    }
+
+    &__link {
+      color: $white;
+      font-size: 15px;
+
+      &:hover {
+        color: $anzac;
+      }
+    }
+  }
+  .fa-fw {
+    text-align: center;
+    width: auto;
+  }
+}
+
+.fa-file-word {
+  color: #4c6ef5;
+}
+
+.fa-file-pdf {
+  color: #e2574c;
+}
+
+table, th, td {
+  border: 1px solid $white;
+}
+
+table tr:first-child {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  $anzac;
+  color: white;
+}
+
+table {
+  color: $white;
+}
+
+table tr td {
+  padding: 10px;
+  font-weight: 500;
+}
+
+table tr td a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.rk {
+  &__block {
+    margin-bottom: 10px;
+  }
+}
+
+.rukovodstvo {
+  &__item {
+    padding: 20px;
+  }
+  .content &__title {
+    font-size: 17px;
+  }
+}
+
+.contact-page__wrapper--last {
+  justify-content: center;
+}
+
+.contact-page__item--last {
+  &:last-child {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .content {
+    &__block-info {
+      flex-direction: column;
+    }
+
+    &__title {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      width: 100%;
+      text-align: center;
+
+      &--block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+      &--personal {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .table-row {
+    overflow: auto;
+    table {
+      min-width: 830px;
+    }
+  }
+
+  .contact-page__wrapper--last {
+    justify-content: space-between;
+  }
+
+  .contact-page__item--last {
+    &:last-child {
+      margin-left: 0px;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .contact-page__item--none {
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  .content {
+    & p {
+      text-align: left;
+    }
+
+    & li {
+      text-align: left;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    & p {
+      font-size: 14px;
+    }
+
+    & li {
+      font-size: 14px;
+    }
+
+    & h3 {
+      font-size: 16px;
+    }
+
+  }
+}

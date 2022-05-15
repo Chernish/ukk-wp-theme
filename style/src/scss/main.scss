@@ -1,0 +1,30 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "vendor";
+@import "settings";
+
+// CUSTOM COMPONENTS STYLES
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/specialty";
+@import "./components/contact";
+@import "./components/footer";
+@import "./components/contact-page";
+@import "./components/content";
+@import "./components/gallery";
+
+ .burger {
+   --burger-width: 40px;
+   --burger-height: 20px;
+   --burger-line-height: 2px;
+
+   @include burger;
+ }
+
+@media (max-width: 360px) {
+  .burger {
+    width: 30px;
+  }
+}

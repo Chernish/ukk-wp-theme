@@ -1,0 +1,151 @@
+.hero {
+  //clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 83%, 80% 91%, 50% 100%, 23% 91%, 0 83%, 0% 35%, 0 0);
+  clip-path: polygon(100% 0, 100% 86%, 50% 100%, 0 86%, 0 0);
+
+
+  &__slider {
+    height: 83.9vh;
+  }
+
+  &__slide {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  &__pagination {
+    bottom: 55px !important;
+
+    & .swiper-pagination-bullet {
+      width: 15px;
+      height: 15px;
+      background: $white;
+      opacity: 1;
+    }
+
+    & .swiper-pagination-bullet-active {
+      background: $anzac;
+    }
+  }
+
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 6;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__sup-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__title {
+    margin: 10px 0;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 0.929;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__sub-title {
+    max-width: 880px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: $white;
+  }
+
+  &__button {
+    margin-top: 30px;
+  }
+
+  &__btn {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    &__title {
+      font-size: 35px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    &__button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__btn {
+      &:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    &__title {
+      font-size: 25px;
+    }
+
+    &__sup-title {
+      font-size: 15px;
+    }
+
+    &__sub-title {
+      font-size: 15px;
+    }
+
+    &__btn {
+      width: 80%;
+      text-align: center;
+      padding: 7px 30px;
+    }
+  }
+}
